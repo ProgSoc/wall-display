@@ -30,3 +30,5 @@ class Clock extends ViewPort
 		
 		c2d.fillStyle = '#0000FF'
 		drawCircle(c2d, angles[sec][0]*w/2, angles[sec][1]*h/2, 5)
+		
+module.exports.Clock = Clock
