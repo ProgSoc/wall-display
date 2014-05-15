@@ -1,3 +1,5 @@
+ViewPort = require('./ViewPort')
+
 drawCircle = (c2d, x, y, rad) ->
 	c2d.beginPath()
 	c2d.arc(pos[0], pos[1], rad, 0, 2*Math.PI, false)
