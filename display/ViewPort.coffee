@@ -1,7 +1,8 @@
 class ViewPort
 	constructor: ()->
 		@needsRender(true)
-		
+		@__size = [0, 0]
+	
 	needsRender: (val) ->
 		if val?
 			@__needsRender = val
@@ -16,7 +17,7 @@ class ViewPort
 		return @__size
 	
 	render: (context) ->
-		renderComponent.call(this, context)
+		@renderComponent.call(this, context)
 			
 	renderComponent: (c2d)->
 		[w, h] = @size()
