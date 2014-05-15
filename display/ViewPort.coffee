@@ -26,4 +26,4 @@ class ViewPort
 		c2d.drawString("Not Implemented", w/2, h/2)
 		
 		
-window.ViewPort = ViewPort
+module.exports.ViewPort = ViewPort
