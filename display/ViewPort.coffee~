@@ -1,0 +1,4 @@
+class ViewPort
+	
+	constructor: (renderElement, dataSource) ->
+		
